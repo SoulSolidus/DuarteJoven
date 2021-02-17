@@ -7,8 +7,10 @@ $(document).ready(function(){
 
         if(scroll > 50){
             $(".nav").css({"background-color": "red"});
+            $(".nav").css({"position": "sticky"});
         } else{
             $(".nav").css({"background-color": "transparent"});
+            $('.nav').css({"position": "absolute"})
         }
     });
 });
