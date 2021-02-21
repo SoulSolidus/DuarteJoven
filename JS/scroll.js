@@ -1,6 +1,6 @@
 $(window).scroll(function() {
 
-    if ($(".main").offset.top > 15){
+    if ($(".main").offset.top > 50){
 
         $(".main").addClass(".cambiaFondo");
 
