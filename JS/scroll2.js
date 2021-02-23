@@ -5,9 +5,9 @@ $(document).ready(function(){
     $(window).scroll(function(){
         scroll = $(window).scrollTop();
 
-        if(scroll > 150){
-            $(".nav").css({"background-color": "#2A3D45", "transition": "0.6s ease"});
-            $(".nav").css({"position": "sticky", "transition": "0.6s ease"});
+        if(scroll > 50){
+            $(".nav").css({"background-color": "red"});
+            $(".nav").css({"position": "sticky"});
         } else{
             $(".nav").css({"background-color": "transparent"});
             $('.nav').css({"position": "absolute"})
