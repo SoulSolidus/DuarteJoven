@@ -8,6 +8,7 @@
     <title>Álbum</title>
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/gallery.css">
+    <link rel="stylesheet" href="CSS/lightbox.min.css">
 </head>
 
 <body>
@@ -16,17 +17,17 @@
             <img src="" alt="">
         </div>
         <ul>
-        <li ><a href="#">Home</a></li>
-        <li class="active"><a href="Album.html">Album</a></li>
-        <li><a href="#Autores.html">Autores</a></li>
-        <li><a href="#Curiosidades.html">Curiosidades</a></li>
-        <li><a href="#Contactanos.html">Contactanos</a></li>
+            <li><a href="Index.html">Home</a></li>
+            <li class="active"><a href="Album.html">Album</a></li>
+            <li><a href="Autores.html">Autores</a></li>
+            <li><a href="#">Curiosidades</a></li>
+            <li><a href="#">Contactanos</a></li>
         </ul>
     </div>
-    <header>
+    <header id="Album">
 
         <div class="title">
-            <h1>Duarte Joven</h1>
+            <h1>Album</h1>
         </div>
         <!--
         <div class="button">
@@ -36,13 +37,29 @@
 -->
     </header>
 
-    <div class="gallery">
-        <a href="IMG/Duarte.jpg"><img src="IMG/Duarte-miniatura.jpg" alt=""></a>
-        <a href="IMG/Duarte by Darwin Nuñez.jpg"><img src="IMG/Duarte by Darwin Nuñez.jpg" alt=""></a>
-        <a href="IMG/Duarte by Luigi Paredes.jpg"><img src="IMG/Duarte by Luigi-miniatura.jpg" alt=""></a>
-        <a href="IMG/juan_pablo_duarte_by_eddaviel_d3jm0as-fullview.jpg"><img
-                src="IMG/Duarte by eddaviel d3jm0as-miniatura.jpg" alt=""></a>
+    <div class="grid-container">
+        <div class="main">
+            <div class="gallery">
+                <a href="IMG/Duarte.jpg" data-lightbox="mygallery" data-title=""><img src="IMG/Duarte-miniatura.jpg" alt=""></a>
+                <a href="IMG/Duarte by Darwin Nuñez.jpg" data-lightbox="mygallery" data-title="Duarte by Darwin Nuñez"><img src="IMG/Duarte by Darwin Nuñez.jpg" alt=""></a>
+                <a href="IMG/Duarte by Luigi Paredes.jpg" data-lightbox="mygallery" data-title="Duarte by Luigi Paredes"><img src="IMG/Duarte by Luigi-miniatura.jpg" alt=""></a>
+                <a href="IMG/juan_pablo_duarte_by_eddaviel_d3jm0as-fullview.jpg" data-lightbox="mygallery" data-title="Juan Pablo Duarte by Eddaviel en DevianArt"><img src="IMG/Duarte by eddaviel d3jm0as-miniatura.jpg" alt=""></a>
+                <a href="IMG/Duarte2.jpg" data-lightbox="mygallery"><img src="IMG/Duarte2-miniatura.jpg" alt=""></a>
+                <a href="IMG/Duarte by Alejando Bonilla.jpg" data-lightbox="mygallery" data-title="Duarte by Alejandro Bonilla"><img src="IMG/Duarte by Alejando Bonilla-miniatura.jpg" alt=""></a>
+                <a href="IMG/Duarte3.jpg" data-lightbox="mygallery" data-title="Duarte by Alejandro Bonilla"><img src="IMG/Duarte3-miniatura.jpg" alt=""></a>
+                <a href="IMG/Duarte by Alexis Cruz.jpg" data-lightbox="mygallery" data-title="Duarte by Alexis Cruz"><img src="IMG/Duarte by Alexis Cruz-miniatura.jpg" alt=""></a>
+
+            </div>
+        </div>
     </div>
+    <footer class="footer">
+        <p>Duarte Joven por Juan Antonio Ramírez Puello y Odalmer Daniel Pimentel Santa, todos los derechos
+            reservados, 2021-2022.</p>
+    </footer>
+
+    <script src="JS/lightbox-plus-jquery.min.js"></script>
+    <script src="JS/scroll2.js"></script>
+
 </body>
 
 </html>
