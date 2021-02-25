@@ -71,17 +71,16 @@ li {
 /*Header*/
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://storage.googleapis.com/mmc-cdn-bucket/uploads/2017/03/3504026f-pico-duarte_cdn-37.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-#album{
-    background-image: none;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxpreguntas-y-respuestas1401por-que-la-spersonas-no-saben-dibujar-1080x719.imgo_-1280x720.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+#Index{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://storage.googleapis.com/mmc-cdn-bucket/uploads/2017/03/3504026f-pico-duarte_cdn-37.jpg);
+}
+#Album{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://stori.co.uk/wp-content/uploads/2020/09/DSC0021-copy.jpg);
+    
 }
 
 ul {
@@ -221,6 +220,7 @@ ul li.active a {
     float: left;
     margin-left: 30px;
 }
+
 
 
 .footer {
