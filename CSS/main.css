@@ -223,14 +223,24 @@ ul li.active a {
 }
 
 
-
 .footer {
     text-align: center;
     font-size: 12px;
-    padding: 15px;
     width: 100%;
+    background-color: #2A3D45;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
 }
-
+/*
+.footer p{
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+*/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
