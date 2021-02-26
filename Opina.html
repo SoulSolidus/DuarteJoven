@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/opina.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <title>Duarte Joven</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="" alt="">
+        </div>
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Album.html">Album</a></li>
+            <li><a href="Autores.html">Autores</a></li>
+            <li><a href="#Curiosidades.html">Curiosidades</a></li>
+            <li class="active"><a href="#">Opina</a></li>
+        </ul>
+    </div>
+    <header class="headerOpina">
+
+        <div class="title">
+            <h1>Déjanos saber tu opinión</h1>
+        </div>
+        <!-- 
+        <div class="button">
+            <a href="#" class="btn">Inbeitga ma</a>
+            <a href="#" class="btn">Dualte</a>
+        </div> -->
+
+    </header>
+
+    <div class="grid-container">
+
+        <div class="divFrom">
+            <form action="">
+                <h1>Agradecemos tu opinión</h1>
+                <label for="">Nombre</label>
+                <input type="text" name="" id="name" placeholder="Tu Nombre Aqui">
+
+                <label for="">Email</label>
+                <input type="email" name="" id="email" placeholder="ej: odalmerg4@gmail.com">
+                <label for="">¿Qué te ha parecido la página?</label>
+                <textarea name="" id="opinion" cols="30" rows="10" placeholder="Me encanta por [...]"></textarea>
+                <input type="submit" value="Enviar" id="submit">
+            </form>
+        </div>
+
+
+        <footer class="footer">
+            <p>Duarte Joven por Juan Antonio Ramírez Puello y Odalmer Daniel Pimentel Santa, todos los derechos
+                reservados, 2021-2022.</p>
+        </footer>
+
+    </div>
+    <script src="JS/scroll2.js"></script>
+    <script src="JS/form.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_bdkwIFHvymtndDlw49eLu");
+        })();
+    </script>
+</body>
+
+</html>
